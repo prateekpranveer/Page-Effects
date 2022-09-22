@@ -11,11 +11,6 @@ const SearchExpand = () => {
       setSearchExpand(SearchExpand => !SearchExpand)
   }
 
-  useEffect(() => {
-    
-  }, [SearchExpand])
-  
-
   return (
     <SearchMain>
         <SearchBox se = {SearchExpand}>
